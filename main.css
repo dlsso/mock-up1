@@ -135,3 +135,16 @@ pre{
 	color: #333;
 	background-color: #bdc3c7;
 }
+
+ol{
+	font-size: .73em;
+	line-height: 1.6em;
+	padding-left: 20px;
+}
+
+ol li{
+	padding-bottom: 1em;
+}
+ol span{
+	font-weight: bold;
+}
