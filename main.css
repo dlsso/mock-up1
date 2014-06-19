@@ -1,5 +1,5 @@
 body{
-	background-color: #7f8c8d
+	background-color: #7f8c8d;
 }
 
 .container{
@@ -56,11 +56,12 @@ h1{
 .sidebar{
 	width: 170px;
 	height: 200px;
+	box-sizing:border-box;
 	-webkit-box-sizing: border-box;
 	position: absolute;
 	top: 260px;
 	left: 546px;
-	background-color: white;
+	background-color: #ecf0f1;
 	border-bottom: solid 3px #444;
 }
 
@@ -82,7 +83,7 @@ h1{
 }
 
 .body{
-	background-color: white;
+	background-color: #ecf0f1;
 	padding: 1.25em;
 }
 
@@ -100,7 +101,7 @@ p{
 h3{
 	font-size: .9em;
 	border-bottom: solid 1px #ccc;
-	padding: 1em 0em .3em .55gmaiem;
+	padding: 1em 0em .3em .55em;
 }
 
 table{
@@ -125,4 +126,12 @@ table button{
 	background-color: #3498db;
 	color: #fff;
 	padding: .4em 1.7em;
+}
+
+pre{
+	width: 100%;
+	font-size: .73em;
+	font-family: "Courier";
+	color: #333;
+	background-color: #bdc3c7;
 }
