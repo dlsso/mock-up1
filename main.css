@@ -53,6 +53,16 @@ h1{
 	padding: 0px 15px 0px 15px;
 }
 
+.aside{
+	width: 170px;
+	height: 197px;
+	position: absolute;
+	top: 260px;
+	left: 546px;
+	background-color: white;
+	border-bottom: solid 3px #444;
+}
+
 .body{
 	background-color: white;
 	padding: 1.3em;
@@ -72,10 +82,29 @@ p{
 h3{
 	font-size: .9em;
 	border-bottom: solid 1px #ccc;
-	padding: 1.1em 0em .3em .55em;
+	padding: 1em 0em .3em .55gmaiem;
 }
 
 table{
 	width: 100%;
-	background-color: #ccc;
+}
+
+table td{
+	font-size: .73em;
+	padding: .5em 1em;
+	border: solid 1px #bbb;
+}
+
+table .heading td{
+	font-weight: bold;
+	background-color: #bdc3c7;
+	padding: .5em;
+	border: solid 1px #999;
+}
+
+table button{
+	border-style: none;
+	background-color: #3498db;
+	color: #fff;
+	padding: .4em 1.7em;
 }
